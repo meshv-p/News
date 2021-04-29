@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="alert">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+       <p style="color: red; font-family: Georgia, 'Times New Roman', Times, serif;"> This is a a website for reading news(daily new topic) paper collections. You have to  merely click the link, which you wanna read news paper. </p>
+      </div>
+      
+   <script>
+       var close = document.getElementsByClassName("closebtn");
+       var i;
+         for (i = 0; i < close.length; i++) {
+           close[i].onclick = function(){
+            var div = this.parentElement;
+             div.style.opacity = "0";
+              setTimeout(function(){ div.style.display = "none"; }, 600);
+                  }
+              }
+    </script>
+    <div class="top" >
+       <h4> welcome, Guys!! </h4>
+       <h6> Hi,I'm meshv patel. This site is created by me. </h6>
+        <p  class="p0"  style="text-align: left; font-size: small; color: green; " >
+             In this site you'll find collections of news- paper. You need to just click link,which is beside the name of news.
+        </p>
+       <p>
+        <marquee class="ma" >Here all news collections below. </marquee>
+       
+       </p>
+        <center  style="margin-top: 2px;"> <i><strong><u style="color: blue;" >News-paper</u></strong> </i>  </center>
+    </div> &nbsp;
+    <div class="table"  >
+        <table border="2"  class="center" style="text-align: center;  " >
+            <tr class="tr" >
+                <td class="td" >Sr. No.</td>
+                <td>News Paper Name</td>
+                <td>Online Reading Link</td>
+            </tr>
+            <tr>
+                <td> 1.</td>
+                <td>Dainik Jagran</td>
+                <td class="co"><a href="https://epaper.divyabhaskar.co.in/mumbai/73/27072019/0/1/">click here</a></td>
+            </tr>
+            <tr>
+                <td> 2. </td>
+                <td> Financial Express </td>
+                <td class="co" ><a href="https://epaper.financialexpress.com/2604955/Mumbai#page/1/1">click here  </a>  </td>
+            </tr>
+            <tr><td> 3.  </td>
+            <td>  Gujarat Samachar  </td>
+            <td  class="co" > <a href="http://epapergujaratsamachar.com/" > click here</a>   </td></tr>
+            <tr><td> 4. </td>
+            <td> Hindustan Times  </td>
+            <td class="co" > <a href="https://epaper.hindustantimes.com/Home/ArticleView">click here </a> </td></tr>
+            <tr><td> 5. </td>
+            <td> Mumbai Mirror   </td>
+            <td class="co" ><a href="https://epaper.timesgroup.com/Olive/ODN/MumbaiMirror/ " >click here</a></td></tr>
+            <tr><td> 6. </td>
+            <td> Sandesh  </td>
+            <td class="co" > <a href="http://sandeshepaper.in/category/37/mumbai" >click here </a>  </td></tr>
+            <tr>
+                <td> 7.  </td>
+                <td> The Economic Times  </td>
+                <td class="co" > <a href="https://epaper.timesgroup.com/Olive/ODN/TheEconomicTimes/" > click here </a>  </td>
+            </tr>
+            <tr> <td> 8. </td>
+            <td> The Times of India  </td> 
+            <td  class="co" > <a href="https://epaper.timesgroup.com/Olive/ODN/TimesOfIndia/" > click here </a>  </td>  </tr> 
+        </table>
+    </div>
+&nbsp; &nbsp; &nbsp;
+&nbsp; &nbsp;
+<p  class="po" >
+    Thank you for visiting this site.
+
+</p>
+  I hope you like this website.
+  Moreover,if you have any suggetions so just send me.I'll make it.
+
+  <div class="last"> 
+    
+   
+    <script>//Get the button:
+        mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }</script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
+
+
+        <a class="p" href="#">Top  </a> 
+      <p class="p1" > <a   href="#"> About</a> </p> 
+      <p class="p2" > <a href="#">Contact us</a></p>
+      <p class="m" >  <a href="#">Join our team </a></p>
+      
+        <p  style="color: white; text-align: center; margin-bottom: 0%; ">© 2020–2021 icoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+
+
+
+      </div>
+
+
+
+</body>
+</html>
