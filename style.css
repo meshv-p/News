@@ -1,0 +1,188 @@
+.alert {
+    padding: 20px;
+    background-color: skyblue; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+
+}
+  
+.alert.info {background-color: #2196F3;}
+
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+   /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+.ma {
+   background-color: snow;
+   font-size: 15px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+.top {
+    font-size: x-large;
+    display: block;
+    text-align: center;
+    animation: text 5s 1;
+    color: red;
+   
+}
+h4 {
+  animation: top 4s 1;
+}
+h6 {
+  animation: top1 3s 1;
+  color: purple;
+  
+}
+@keyframes top {
+  from {
+    margin-left: 100%;
+    width: 300%;
+    color: lightslategrey;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+    color: teal;
+  }
+}
+
+@keyframes top1 {
+  from {
+    margin-right: 50%;
+    width: 50%;
+    color: thistle;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+    color: salmon;
+  }
+}
+.p0 {
+   animation: p0 7s 1;
+}
+@keyframes p0 {
+  from
+  {
+   margin-left: 100%; 
+   width: 50%;
+   color: black;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+    color: blue;
+  }
+}
+
+body {
+      background: radial-gradient(rgb(248, 248, 9),lightgreen);
+}
+
+p {
+  animation: p 5s 1;
+  font-size: small;
+}/*
+@keyframes p {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}*/
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightyellow;
+    background-color: lightgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    width: 1000px;
+    border-color: black;
+    
+}
+.tr {
+  background-color: orange;
+}
+.td {
+  background-color: orange;
+}
+.co {
+    background-color: lightpink;
+    text-decoration: underline;
+}
+a:hover {
+  color: red;
+}
+.last{
+  background-color: rgba(0, 0, 0, 0.883);
+  margin-top: 50px;
+  color: red;
+  display: block;
+  padding: 25px;
+  word-spacing: 5px;
+  
+
+}
+
+.p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+.p1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.p2 {
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+.m {
+    margin-top: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
