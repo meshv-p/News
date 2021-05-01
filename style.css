@@ -285,7 +285,7 @@ footer{
       background: #007bb5; 
 }
 
-@media (max-width :1000px){
+@media (max-width :650px){
     .fa {
       width: 20px;
   height: 25px;
