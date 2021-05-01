@@ -1,0 +1,118 @@
+*{
+    padding: 0;margin: 0;
+}
+
+body  {
+    
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+    font-style: italic;
+    
+}
+.head1 :hover{
+    color: red;
+} 
+.head1 {
+    background-color: rgba(0, 0, 0, 0.931);
+    height: 25px;
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+    padding: 15px ;
+    color: white;
+    text-decoration: underline;
+}
+.name {
+   margin-top: 10px;
+   font-size: 25px;
+    animation: text 5s 1;
+}
+.name :hover{
+    font-size: 27px;
+    color: red;
+}
+.de {
+    margin-top: 10px;
+    margin-left: 27px;
+    
+    list-style: none;
+}
+.l2 {
+    margin-top: 10px;
+}
+.de p {
+    margin-top: 10px;
+}
+footer {
+    margin-bottom: 0%;
+    margin-top: 50%;
+    height: 100px;
+    background: #000;
+    color: red;
+}
+
+
+.Home {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+   
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    height: 15px;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    margin-left: 900px;
+    color: white;
+    
+    
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+      
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram {
+        background-color: #125688;
+        color: white;
+}
+.fa-linkedin {
+        color: white;
+        background: #007bb5;
+        
+       
+}
+
+      
+@media (max-width : 400px  ){          
+    .fa {
+     
+  padding: 15px 10px;
+  
+  
+    }
+    .fa-facebook{
+      margin-left: 45px;
+    }
+   
+}
