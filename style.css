@@ -282,8 +282,23 @@ footer{
 }
 .fa-linkedin {
       color: white;
-      background: #007bb5;
-     
-     
-     
+      background: #007bb5; 
+}
+
+@media (max-width :1000px){
+    .fa {
+      width: 20px;
+  height: 25px;
+  padding: 3.5px 1.5px;
+  
+    }
+    .fa-facebook{
+      margin-left: 50px;
+    }
+}
+@media (min-width :1224px){
+  .fa{
+    width: 40px;
+  height: 50px;
+  }
 }
