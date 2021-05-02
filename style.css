@@ -249,42 +249,50 @@ footer{
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
+  transition: 2s;
  
 }
 /* Add a hover effect if you want */
 .fa:hover {
   opacity: 0.7;
   color: none;
+  /* transform: translateZ(25px); */
+  text-decoration: none;
+  font-size: 30px;
 }
 
 /* Set a specific color for each brand */
 
 /* Facebook */
 .fa-facebook {
-  background: #3B5998;
+  border-color: white;
   margin-left: 100px;
   color: white;
-
+  /* font-size: 30px; */
  
+ 
+}
+.fa-facebook :hover{
+    transform:translateX(25px);
 }
 
 /* Twitter */
 .fa-twitter {
  
-  background: #55ACEE;
-  color: white;
+  
+  color: 	#1DA1F2;
 }
 
 .fa-instagram {
-      background-color: #125688;
-      color: white;
+    
+      color: #833AB4;
       
 }
 .fa-linkedin {
-      color: white;
-      background: #007bb5; 
+      color: #0077B5;
+       
 }
-
+ 
 @media (max-width : 400px  ){
     .fa {
       width: 40px;
