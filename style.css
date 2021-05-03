@@ -34,6 +34,57 @@
     border-radius: 10px;
 }
 
+/*  navbar  */
+.navbar {
+  background-color: #000000e8;
+  position: static;
+}
+ul li{
+  float: left;
+ 
+  list-style: none;
+  padding: 4px 15px;
+  }
+ul {
+  margin-left: -23px;
+  font-size: 15px;
+}
+ul li a{
+  text-decoration: none;
+  font-style: italic;
+  
+}
+ul li a:hover{
+  opacity: 0.5;
+}
+input{
+  padding: 0px 19px;
+  border-radius: 27px;
+  /* border-bottom : 2px solid rgb(230, 26, 26); */
+  outline: none;
+  border-top: hidden;
+}
+input:hover{
+  border-bottom: hidden;
+}
+@media (min-width: 200px) and (max-width:1000px) {
+input {
+    padding: 3px 5px;
+    float: left;
+}
+ul {
+  font-size: 10px;
+  padding: -3px 6px;
+}
+ul li{
+  padding: 0px 6px;
+  margin-left: 4px;
+}
+.navbar{
+    font-size: 10px;
+}
+}
+
 .line:hover{
     background-color: #F8E831;
     color:#047bd5 ;
