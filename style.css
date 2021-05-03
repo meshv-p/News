@@ -93,7 +93,7 @@ input {
 @media (min-width:350px) and (max-width:450px) {
   
   input{
-    padding: 0px 5px;
+    padding: 0px 0px;
     /* border-radius: 27px; */
     outline: none;
     border-top: hidden;
