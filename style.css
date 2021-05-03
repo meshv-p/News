@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 .alert {
     padding: 20px;
     background-color: skyblue; /* Red */
@@ -41,7 +45,7 @@
 }
 ul li{
   float: left;
- 
+  font-size: 15px;
   list-style: none;
   padding: 4px 15px;
   }
@@ -63,14 +67,38 @@ input{
   /* border-bottom : 2px solid rgb(230, 26, 26); */
   outline: none;
   border-top: hidden;
+  /* font-size: 9px;  */
+  font-size: 15px;
 }
 input:hover{
   border-bottom: hidden;
 }
-@media (min-width: 200px) and (max-width:1000px) {
+@media (min-width: 200px) and (max-width:300px) {
 input {
-    padding: 3px 5px;
-    float: left;
+    padding: 1px 4px;
+    
+   
+}
+ ul {
+   margin-left: -19px;
+   /* font-size: 11px; */
+ }
+
+ ul li{
+   padding: 3px 4px;
+
+ }
+}
+
+@media (min-width:350px) and (max-width:450px) {
+  
+  input{
+    padding: 0px 5px;
+    /* border-radius: 27px; */
+    outline: none;
+    border-top: hidden;
+    font-size: 10px;
+  }
 }
 ul {
   font-size: 10px;
@@ -82,7 +110,6 @@ ul li{
 }
 .navbar{
     font-size: 10px;
-}
 }
 
 .line:hover{
@@ -101,24 +128,33 @@ ul li{
   transform: rotate(360deg);
   
 }
+.po {
+  transition: 2s;
+}
 
 .con :hover{
-     background-color: #87ceeb;    }
+     background-color: #87ceeb;
+    font-size: 15px;    
+    
+}
 .top {
     font-size: x-large;
     display: block;
     text-align: center;
     animation: text 5s 1;
-    color: red;
+    color: black;
     
    
 }
 
 h4 {
   animation: top 4s 1;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  background-repeat: 2;
+  -webkit-background-composite: border;
+
 }
 h6 {
   animation: top1 3s 1;
@@ -173,12 +209,14 @@ h6 {
 
 body {
       background: radial-gradient(rgb(248, 248, 9),lightgreen);
-}
 
+     
+    }
+/* 
 p {
   animation: p 5s 1;
-  font-size: small;
-}/*
+  font-size: small; */
+/*
 @keyframes p {
   from {
     margin-bottom: 100%;
@@ -224,14 +262,26 @@ table .center {
 tr td :hover{
   color: red;
 }
-
-p :hover {
-  color: red;
+.p {
+  transition: 3s;
 }
 
 .p :hover {
   color: red;
+  font-size: 20px;
+  
 }
+a {
+  transition: 2s;
+}
+
+a :hover {
+  color: red;
+  font-size: 20px;
+  
+}
+
+
 .last{
   background-color: black;
   margin-top: 50px;
@@ -241,9 +291,11 @@ p :hover {
   height: 200px;
   word-spacing: 5px;
   margin-bottom: 0px;
-  
-
 }
+/* 
+.last :hover {
+  color: cyan;
+} */
 
 .p {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -293,14 +345,15 @@ footer{
 }  
 .fa {
   padding: 15px 10px;
-  font-size: 10px;
+  font-size: 30px;
   width: 40px;
   height: 50px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-  transition: 2s;
+  display: flex;
+  transition: 1s;
  
 }
 /* Add a hover effect if you want */
@@ -344,11 +397,13 @@ footer{
        
 }
  
-@media (max-width : 400px  ){
+      
+@media (max-width : 400px  ){          
     .fa {
       width: 40px;
   height: 50px;
   padding: 15px 10px;
+  
   
     }
     .fa-facebook{
@@ -363,4 +418,4 @@ footer{
     width: 40px;
   height: 50px;
   }
-}
+} 
