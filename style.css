@@ -280,17 +280,20 @@ p {
 }*/
 table .center {
     margin-top: 10px;
+    display: inline;
 }
 .center {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: lightyellow;
-    background-color: lightgreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    margin-top: 10px;
-    border-color: black;
-    
+  margin-left: 350px;
+  margin-right: auto;
+ 
+  background-color: lightyellow;
+  background-color: lightgreen;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin-top: 10px;
+  border-color: black;
+  display: inline-flex;
+
 }
 .center :hover{
   border-radius: 20px;
