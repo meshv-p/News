@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+*{
+    font-family: 'Baloo Bhaina 2', cursive ;
+}
+
+body{
+    background-image: url(zdenek-machacek-l1vfj2y13tk-unsplash.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: center top ;
+}
+
+.ab{
+    color: red;
+    border: 2px solid green;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;   /* 400 */
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    
+    
+}
+
+@media (max-width:500px){
+    .ab{
+    margin-left: 0px;
+    margin-right: 50px;
+   
+}
+    
+}
+.ab h3{
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-style: italic;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: rgba(8, 8, 8, 0.815);
+    border-radius: 10px;
+    height: 52px;
+
+
+}
+hr{
+    opacity: 0.5;
+    margin-top: 1px;
+}
+.ab img {
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    margin-top: 10px;
+    border:1px solid black;
+    border-radius: 100%;
+    justify-content: center;
+   align-items: center;
+
+}
+.ab span{
+    /* display: inline-block; */
+    display: flex;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+#mp {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 30px;
+    margin-bottom: 1px;
+    height: 35px;
+    text-shadow:yellow ;
+    animation-delay: 5s;
+    animation: mp 3s 1;
+}
+@keyframes mp {
+       0%{
+          margin-left: 0px;
+       } 
+
+}
+#ce {
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 190px;
+}
+
+.ab ul li{
+    list-style: none;
+    padding: 20px 20px;
+    float: left;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.911);
+    margin-top: 100px;
+    height: 135px;
+    padding: 1px 20px;
+    border-radius: 10px;
+}
+   /* icons */
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    transform: translateZ(25px);
+    text-decoration: none;
+    font-size: 40px; 
+  } 
+  
+
+
+
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    display: flex;
+    margin-left: 45px;
+    color: white;
+    margin: 0px 5px;
+   background:blue;
+   border-radius: 7px;
+   width: 35px;
+   height: 33px;
+   text-decoration: none;
+   text-align: center;
+   font-size: 20px;
+   padding: 3px 1px;
+   justify-content: center;
+   align-items: center;
+   } 
+  /* Twitter */
+  .fa-twitter {
+    display: flex;
+    border-radius: 5px;
+    width: 35px;
+    height: 33px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    padding: 3px 1px;
+     justify-content: center;
+   background:white;
+    color: 	#1DA1F2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .fa-instagram {
+    display: flex;
+        background:linear-gradient(#8a3ab9,#e95950);
+        border-radius: 5px;
+        width: 35px;
+        height: 33px;
+        text-decoration: none;
+        justify-content: center;
+   align-items: center;     
+   font-size: 20px;
+   padding: 3px 1px;
+    justify-content: center;
+        color: white;
+  }
+  .fa-linkedin {
+        color: white;
+        display: flex;
+        background-color: #0077B5;
+        border-radius: 5px;
+        width: 35px;
+        text-align: center;
+        font-size: 20px;
+        padding: 3px 1px;
+        justify-content: center;
+        align-items: center;
+         justify-content: center;
+        height: 33px;
+        text-decoration: none;
+         margin-left: 1px;
+  }
