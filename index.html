@@ -12,6 +12,7 @@
    
 </head>
 <body>
+<!--     button -->
     <a  href="#">  <input type="button"  id="myBtn"    value="Top"></a>
     
     <div class="alert">
@@ -52,7 +53,8 @@ function topFunction() {
 }
 </script>
      <header>
-        <div>   
+        <div>      
+<!--             navbar -->
                 <nav class="navbar navbar-dark" >
                 
                 <ul id="nav">
@@ -68,11 +70,11 @@ function topFunction() {
         </header>
 
     
-    
+<!--     top line -->
     
     <div class="top" >
-       <h4> welcome, Guys!! </h4>
-       <h6> Hi,I'm meshv patel. This site is created by me. </h6>
+<!--        <h4> welcome, Guys!! </h4>
+       <h6> Hi,I'm meshv patel. This site is created by me. </h6> -->
         <p  class="p0"  style="text-align: left; font-size: small; color: green; " >
              In this site you'll find collections of news- paper. You need to just click link,which is beside the name of news.
         </p>
@@ -80,11 +82,22 @@ function topFunction() {
         <marquee class="line"  >Here all news are collected below. </marquee>
        
        </p> </div>
+<!--     news logo -->
        <div  class="news"><p  class="news" style="margin-top: 2px; text-align: center;"> News-paper</p>
        </div>
         
         &nbsp;
+<!--     table data -->
     <div class="table"  >
+         <!-- map line -->
+                        <div class="map" id="map" > <h5 style="color: black;" > <i> &nbsp; Map </i> </h5>
+                            <ul class="site" >
+                                <li id="l" ><a href="#" >Home</a></li>
+                                <li id="l" ><a href="#t" >News paper</a></li>
+                                <li id="l" ><a href="#a"  >Contact us</a></li>
+                            </ul>
+
+                        </div>
         <table border="1"  class="center"  style="text-align: center; ">
             <tr class="tr" >
                 <td class="td" >Sr. No.</td>
@@ -131,6 +144,7 @@ function topFunction() {
 &nbsp; &nbsp; &nbsp;
 &nbsp; &nbsp;
 
+<!--     last line -->
    <div class="con" >
     <p  class="po"  >
       Thank you for visiting this site. <br> <br>
@@ -162,6 +176,7 @@ function topFunction() {
     <button onclick="topFunction()" id="myBtn" title="Go to top">top</button>
 
         <footer>
+<!--             contact us line -->
     <div class="last">
                     <div style="width: 100%;" >
                             <div class="p"  style=" width: 50%; float: left;" >  
@@ -185,8 +200,23 @@ function topFunction() {
         © 2020–2021 icoder, Inc.  &nbsp;<a href="#">Privacy</a> · <a href="#">Terms</a>
        </div>
       </footer>
-
-   
+<!-- script for map -->
+    
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var navbar = document.getElementById("map");
+            var sticky = navbar.offsetTop;
+            var go =  document.getElementById("map");
+            
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
       
 
 
