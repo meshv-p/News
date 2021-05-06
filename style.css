@@ -32,6 +32,10 @@
     color: black;
   }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* map site  */
  #map {
   background-color: #007dfb;
