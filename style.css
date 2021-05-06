@@ -2,42 +2,15 @@
   padding: 0;
   margin: 0;
 }
-.alert {
-    padding: 20px;
-    background-color: skyblue; /* Red */
-    color: white;
-    margin-bottom: 15px;
-    opacity: 1;
-    transition: opacity 0.6s;
-    margin-bottom: 15px;
-
-}
-  
-.alert.info {background-color: #2196F3;}
-
-  /* The close button */
-  .closebtn {
-    margin-left: 15px;
-    color: white;
-    font-weight: bold;
-    float: right;
-    font-size: 22px;
-    line-height: 20px;
-    cursor: pointer;
-    transition: 0.3s;
-
-  }
-   /* When moving the mouse over the close button */
-  .closebtn:hover {
-    color: black;
-  }
 
 html {
   scroll-behavior: smooth;
 }
-
-/* map site  */
- #map {
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+#map {
   background-color: #007dfb;
   color: white;
   display: inline-block;
@@ -79,7 +52,47 @@ html {
   #map{
     display: none;
   }
-}  
+}
+
+.alert {
+    padding: 20px;
+    background-color: skyblue; /* Red */
+    color: white;
+    margin-bottom: 15px;
+    opacity: 1;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+
+}
+  
+.alert.info {background-color: #2196F3;}
+
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+
+  }
+   /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+  img {
+    display: inline;
+    
+    background-image: center ;
+    height: 500px;
+    width: 100px ;
+  
+  
+  }
 
 .line {
    background-color: snow;
@@ -123,19 +136,20 @@ input{
 input:hover{
   border-bottom: hidden;
 }
-@media (min-width: 200px) and (max-width:300px) {
+@media (min-width: 200px) and (max-width:320px) {
 input {
     padding: 1px 4px;
-    
+    font-size: 8px;
    
 }
  ul {
    margin-left: -19px;
-   /* font-size: 11px; */
+  padding-left: 1px ;
  }
 
  ul li{
-   padding: 3px 4px;
+   padding: 10px 0px;
+   font-size: 13px;
 
  }
 }
@@ -143,7 +157,7 @@ input {
 @media (min-width:350px) and (max-width:450px) {
   
   input{
-    padding: 0px 0px;
+    padding: 0px 5px;
     /* border-radius: 27px; */
     outline: none;
     border-top: hidden;
@@ -184,7 +198,7 @@ ul li{
 
 .con :hover{
      background-color: #87ceeb;
-    font-size: 15px;    
+        
     
 }
 .top {
