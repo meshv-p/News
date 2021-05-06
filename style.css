@@ -31,6 +31,52 @@
   .closebtn:hover {
     color: black;
   }
+
+/* map site  */
+ #map {
+  background-color: #007dfb;
+  color: white;
+  display: inline-block;
+  width: 90px;
+  height: 150px;
+  margin-left: -1px;
+  margin-top: 20px;
+  position: sticky;
+  border-radius: 10px;
+  left: -80px;
+  transition: 0.3s;
+
+  
+
+}
+
+.sticky {
+  position: fixed;
+  top: 10px;
+  width: 100%;
+  opacity: .7;
+  transition: 5s;
+}
+
+#l{
+  margin-left: 42px;
+  list-style: circle;
+}
+
+.map a {
+  color: white;
+}
+.map a :hover {
+  left: 0;
+  color: black;
+   text-decoration: none;
+}
+@media (max-width:500px){
+  #map{
+    display: none;
+  }
+}  
+
 .line {
    background-color: snow;
    font-size: 15px;
