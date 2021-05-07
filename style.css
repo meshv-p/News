@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Baloo Bhaina 2', cursive ;
+    transition: 2s;
+    font-style: italic;
 }
-
 html {
   scroll-behavior: smooth;
 }
