@@ -25,8 +25,8 @@ html {
 
   
 
-}
-
+} */
+/* 
 .sticky {
   position: fixed;
   top: 10px;
@@ -48,11 +48,19 @@ html {
   color: black;
    text-decoration: none;
 } */
-@media (max-width:500px){
-  #map{
+/* @media (max-width:500px){
+  div #t .map{
     display: none;
+    width: 0px;
+    height: 0px;
   }
-}
+  .center{
+    margin-left: 50px;
+    display: inline-block;
+
+    
+  }
+} */
 
 .alert {
     padding: 20px;
@@ -136,34 +144,10 @@ input{
 input:hover{
   border-bottom: hidden;
 }
-@media (min-width: 200px) and (max-width:320px) {
-input {
-    padding: 1px 4px;
-    font-size: 8px;
-   
-}
- ul {
-   margin-left: -19px;
-  padding-left: 1px ;
- }
 
- ul li{
-   padding: 10px 0px;
-   font-size: 13px;
 
- }
-}
 
-@media (min-width:350px) and (max-width:450px) {
-  
-  input{
-    padding: 0px 5px;
-    /* border-radius: 27px; */
-    outline: none;
-    border-top: hidden;
-    font-size: 10px;
-  }
-}
+
 ul {
   font-size: 10px;
   padding: -3px 6px;
@@ -294,11 +278,11 @@ p {
 }*/
 table .center {
     margin-top: 10px;
-    display: inline;
+   
 }
 .center {
-/*   margin-left: 350px;
-  margin-right: auto; */
+  margin-left: 450px;
+  margin-right: auto;
  
   background-color: lightyellow;
   background-color: lightgreen;
@@ -306,8 +290,55 @@ table .center {
   font-style: italic;
   margin-top: 10px;
   border-color: black;
-  display: inline-flex;
 
+}
+@media (min-width: 200px) and (max-width:320px) {
+  input {
+      padding: 1px 4px;
+      font-size: 8px;
+     
+  }
+   ul {
+     margin-left: -19px;
+    padding-left: 1px ;
+   }
+  
+   ul li{
+     padding: 10px 0px;
+     font-size: 13px;
+  
+   }
+   .center{
+     margin-left: 10px;
+   }
+  }
+  
+  @media (min-width:350px) and (max-width:450px) {
+    
+    input{
+      padding: 0px 5px;
+      /* border-radius: 27px; */
+      outline: none;
+      border-top: hidden;
+      font-size: 10px;
+    }
+    .center{
+      margin-left: 1px;
+    }
+  
+  }
+  @media (min-width:700px )and (max-width:1000px){
+    .center{
+      margin-left: 200px;
+  margin-right: auto;
+    }
+  }
+  @media (min-width:1000px) and (max-width:2000px) {
+    
+    .center{
+    margin-left : 450px;
+  margin-right : auto;
+  }
 }
 .center :hover{
   border-radius: 20px;
