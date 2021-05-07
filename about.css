@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
 *{
     font-family: 'Baloo Bhaina 2', cursive ;
+    transition: 2s;
+    font-style: italic;
 }
 
 body{
     background-image: url(zdenek-machacek-l1vfj2y13tk-unsplash.jpg);
     background-repeat: no-repeat;
-    
+
     background-position: center top ;
+  
 }
 
 .ab{
@@ -19,6 +22,8 @@ body{
     text-align: center;
     background-color: rgb(211, 211, 211);
     border-radius: 10px;
+    /* background-color: transparent ; */
+     
     
     
 }
@@ -27,9 +32,15 @@ body{
     .ab{
     margin-left: 0px;
     margin-right: 50px;
-   
+    width: 350px;
 }
-    
+    .ab ul li{
+        margin-left: -20px;
+        padding: 0px 5px;
+    }
+     span  #ce{
+        margin-left: 10px;
+    }
 }
 .ab h3{
     font-family: 'Baloo Bhaina 2', cursive;
@@ -91,6 +102,29 @@ hr{
     padding: 20px 20px;
     float: left;
 }
+#f{
+    display: none;
+    transition: 5s;
+  
+    
+}
+
+#t{
+    display: none;
+ 
+}
+#i{
+    display: none;
+    
+}
+#l{
+    display: none;
+
+}
+
+a {
+    transition: 3s;
+}
 .footer{
     background: rgba(0, 0, 0, 0.911);
     margin-top: 100px;
@@ -101,14 +135,60 @@ hr{
    /* icons */
 
 /* Add a hover effect if you want */
-.fa:hover {
+ .fa:hover  {
     opacity: 0.7;
     transform: translateZ(25px);
     text-decoration: none;
-    font-size: 40px; 
-  } 
-  
+    font-size: 40px;  
+    width: 40px;  
+    height: 38px;
+    transition: 1s;
+} 
 
+#f :hover{
+    transition: 2s;
+}
+
+a:hover  + #f{
+    display: inline-block;
+    color: rgb(240, 102, 102);
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-style: italic;
+    margin-top: 15px;
+    margin-left: -12px;
+    
+  }
+a:hover + #t {
+    display: inline-block;
+    color: rgb(223, 220, 84);
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -0px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+a:hover + #i{
+    display: inline-block;
+    color: rgb(72, 195, 226);
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    margin-top: 15px;  
+    margin-left: -20px; 
+    letter-spacing: 1px;
+    font-style: italic;
+}
+a:hover + #l{
+    display: inline-block;
+    color: rgb(189, 184, 184);
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 15px;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    font-style: italic;
+}
 
 
   /* Set a specific color for each brand */
@@ -119,7 +199,7 @@ hr{
     color: white;
     margin: 0px 5px;
    background:blue;
-   border-radius: 7px;
+   border-radius: 10px;
    width: 35px;
    height: 33px;
    text-decoration: none;
@@ -135,6 +215,7 @@ hr{
     border-radius: 5px;
     width: 35px;
     height: 33px;
+    border-radius: 10px;
     text-decoration: none;
     text-align: center;
     font-size: 20px;
@@ -148,12 +229,12 @@ hr{
   
   .fa-instagram {
     display: flex;
-        background:linear-gradient(#8a3ab9,#e95950);
-        border-radius: 5px;
-        width: 35px;
-        height: 33px;
-        text-decoration: none;
-        justify-content: center;
+     background:linear-gradient(#8a3ab9,#e95950);
+     border-radius: 10px;
+     width: 35px;
+    height: 33px;
+    text-decoration: none;
+    justify-content: center;
    align-items: center;     
    font-size: 20px;
    padding: 3px 1px;
@@ -164,7 +245,7 @@ hr{
         color: white;
         display: flex;
         background-color: #0077B5;
-        border-radius: 5px;
+        border-radius: 10px;
         width: 35px;
         text-align: center;
         font-size: 20px;
@@ -174,5 +255,5 @@ hr{
          justify-content: center;
         height: 33px;
         text-decoration: none;
-         margin-left: 1px;
+         
   }
