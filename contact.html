@@ -4,108 +4,218 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
-    <title>contact us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+        body::before {
+            background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+            z-index: -1;
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+            /* filter: blur(5px); */
+        }
 
-        body{
-            background-color: rgb(236, 225, 129);
+        #name {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 20px;
+            margin-left: 36px;
+            border: 1px solid red;
+            border-radius: 5px;
+            height: 20px;
+        }
+
+        #number {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 15px;
+            margin-left: 22px;
+            border: 1px solid red;
+            border-radius: 5px;
+            height: 20px;
+        }
+
+        #email {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 15px;
+            height: 20px;
+            outline:none;
+            margin-left: 20px;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+
+        #message {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 15px;
+            height: 20px;
+            margin-left: 46px;
+            border: 1px solid red;
+            border-radius: 5px;
+        }
+
+        #button {
+            width: 170px;
+            box-shadow: 2px 1px 5px 0.5px rgba(0, 0, 0, 0.2);
+            height: 35px;
+            border: 1px solid red;
+            outline: none;
+            margin-left: 50px;
+            font-size: 20px;
+            background: greenyellow;
+            border-radius: 10px;
+            font-family: Courier New, Courier, 'monospace';
+            color: rgb(14, 104, 156);
+            text-align: center;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: 0.3s ease background-color;
+        }
+
+        #button:hover {
+            color: rgb(223, 221, 221);
+            transition: 1s;
+            
+            background-color: rgb(114, 199, 45);
+
+        }
+
+        #reset {
+            width: 170px;
+            height: 35px;
+            border: 1px solid red;
+            /* outline: none; */
+            margin-left: 10px;
+            font-size: 20px;
+            background: greenyellow;
+            border-radius: 10px;
+            font-family: Courier New, Courier, 'monospace';
+            color: rgb(14, 104, 156);
+            text-align: center;
+            cursor: pointer;
+            margin-top: 30px;
+            transition: 0.3s  background-color;
+        }
+
+        #reset:hover {
+            color: rgb(223, 221, 221);
+            transition: 1s;
+            
+            background-color: rgb(114, 199, 45);
+        }
+
+        .con {
+            border: 1px solid green;
+            width: 500px;
+            height: 400px;
+            border-radius: 10px;
+            justify-self: center;
+            align-items: center;
+            display: inline-block;
+            margin-left: 400px;
+            margin-top: 50px;
+            background-color: silver;
+            background-color: transparent;
+            backdrop-filter: blur(5px);
+        }
+
+        span {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #status {
+            width: 90%;
+            max-width: 500px;
+            text-align: center;
+            padding: 10px;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+
+        h5 {
+            /* background-color: rgb(92, 153, 92); */
+            color: red;
+            width: 500px;
+            height: 20px;
+        }
+
+        h4 {
+            /* background-color: rgb(92, 153, 92); */
+            color: red;
+            width: 500px;
+            height: 20px;
         }
 
         header {
-            background: rgb(17, 15, 15);
-            margin-top: -19px;
-            border-radius: 10px;
-        }
-
-        h6 {
-            margin-top: -25px;
-            text-align: center;
-            color: white;
-            line-height: 32px;
-        }
-
-        h3 {
-            text-align: center;
-            color: white;
-        }
-
-        div {
-            border: 2px solid green;
-            width: 700px;
-            height: 700px;
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-            margin-left: 400px;
-            border-radius: 10px;
-            background-color: rgb(255, 192, 203);
-        }
-
-        iframe {
-            display: inline-block;
-            justify-content: center;
-            align-items: center;
-            margin-left: 33PX;
-            border: 1PX solid red;
-            border-radius: 10px;
-            background: rgb(206, 205, 205);
-        }
-        h2{
-            text-align: center;
-            margin-left: 190px;
-            color: red;
-            font-weight: bold;
-            font-style: italic;
-        }
-        footer {
             text-align: center;
             background: #000;
+            height: 30px;
             color: white;
-            border-radius: 10px;
-            margin-top: -2px;
-            /* margin-bottom: -5px; */
-            height: 50px;
+            border-radius: 5px;
+            line-height: 25px;
         }
+
         @media (max-width:500px) {
-                div {
-                    margin-left: -5px;
-                    width: 600px;
-                    margin-top: 20px;
-                }
-                iframe{
-                    width: 550px;
-                }
+            .con {
+                margin-left: -0px;
+                width: 400px;
+                height: 300px;
+            }
         }
     </style>
 </head>
-<h2>Contact Us</h2>
-<body style="font-family: 'Baloo Bhaina 2', cursive;">
-    <div>
-       
-        <!-- <form action="contact.php" method="POST" >
 
-           Enter your name: <input type="text" name="name" id="name"> <br>
-           Enter your number: <input type="number" name="number" id="number"> <br>
-           Enter your Email id: <input type="email" name="email" id="email"> <br>
-           Send message: <input type="text" name="msg" id="msg"  >
-            <input type="submit" name="submit" >
-        </form> -->
-        <header>
-            <h3>fill the form below.</h3>
-            <h6>we will see you as soon as possible.</h6>
-        </header>
+<body>
+    <div class="con">
+        <header>Contact Us</header>
+        <form action="https://formspree.io/f/mnqljkvb" method="POST" id="form">
+            &nbsp; <span>Enter Your Name:</span> <input type="text" name="name" id="name" placeholder="name" required>
+            <br>
+            &nbsp; <span>Enter Your Number:</span> <input type="number" name="number" id="number" placeholder="number"
+                required> <br>
+            &nbsp; <span>Enter Your Email Id:</span> <input type="email" name="eamil" id="email" placeholder="email"
+                required> <br>
+            &nbsp; <span>Enter &nbsp; Message: </span><input type="text" name="message" placeholder="send message here"
+                id="message" required> <br>
 
-        <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSfbE1QRpbUkGz0qc9AebOeX_SCt54lOWASDK5AfBZzbcCQTRA/viewform?embedded=true"
-            width="640" height="550" frameborder="0" marginheight="1p80x3x2jczsl" marginwidth="0">Loading…</iframe>
+            <button type="submit" id="button"> send </button>
+            <button type="reset" id="reset"> reset </button>
 
-        <footer>
-            Thank you for contacting us.
-        </footer>
+        </form>
+        <div id="status">
+
+        </div>
 
     </div>
+
+    <script>
+
+        var form = document.getElementById("form");
+
+        async function handleSubmit(event) {
+            event.preventDefault();
+            var status = document.getElementById("status");
+            var data = new FormData(event.target);
+            fetch(event.target.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            }).then(response => {
+                status.innerHTML = " <br><h5> Thanks for your submission! </h5> <br>we will see you as soon as possible!";
+                form.reset()
+            }).catch(error => {
+                status.innerHTML = "<h4>Oops! There was a problem submitting your form</h4>"
+            });
+        }
+        form.addEventListener("submit", handleSubmit)
+
+
+    </script>
 </body>
 
 </html>
