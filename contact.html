@@ -158,13 +158,92 @@
             line-height: 25px;
         }
 
-        @media (max-width:500px) {
+        @media (max-width:320px) {
             .con {
-                margin-left: 0px;
-                width: 400px;
-                height: 400px;
+                margin-left: -5px;
+                width: 403px;
+                height: 350px;
+            }
+            body::before {
+                
+                width: 131%;
+                height: 171%;
+            }
+            span{
+                font-size: 20px;
+            }
+            input{
+                margin: 22px;
+                margin-left: 14px;
+                height: 20px;
+            }
+            #button{
+                width: 155px;
+                height: 32px;
+                margin-left: 23px;
+            }
+            #reset{
+                height: 32px;
+                margin-left: 29px;
+                width: 155px;
+            }
+
+        }
+        @media (min-width:321px) and (max-width:375px){
+            .con{
+                margin-left: -1px;
+            }
+            
+            span{
+                font-size: 21px;
+            }
+            input{
+                margin: 24px;
+                margin-left: 33px;
+                height: 22px;
+            }
+            #button{
+                width: 159px;
+                height: 32px;
+                margin-left: 16px;
+            }
+            #reset{
+                width: 159px;
+                height: 32px;
+                margin-left: 12px;
             }
         }
+        @media (min-width:376px)and (max-width:425px) {
+            .con{
+                margin-left: -6px;
+                width: 416px;
+            }
+            span{
+                font-size: 22px;
+            }
+            #button{
+                margin-left: 28px;
+            }
+            #reset{
+                margin-left: 20px;
+            }
+        }
+        @media ( min-width:430px) and  (max-width:768px) {
+            .con{
+                margin-left: 120px;
+
+            }
+            span{
+                font-size: 25px;
+            }
+            #name{
+                margin-left: 45px;
+            }
+            #message{
+                margin-left: 58px;
+            }
+        }
+
     </style>
 </head>
 
@@ -213,8 +292,6 @@
             });
         }
         form.addEventListener("submit", handleSubmit)
-
-
     </script>
 </body>
 
