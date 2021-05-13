@@ -7,6 +7,7 @@
 
 body{
     background-image: url(zdenek-machacek-l1vfj2y13tk-unsplash.jpg);
+    
     background-repeat: no-repeat;
 
     background-position: center top ;
@@ -23,6 +24,7 @@ body{
     background-color: rgb(211, 211, 211);
     border-radius: 10px;
     /* background-color: transparent ; */
+    backdrop-filter: blur(25px);
      
     
     
@@ -70,6 +72,7 @@ hr{
 
 }
 p{
+    display: inline-block;
     display: flex;
     margin-left: 35%;
     margin-top: 10px;
@@ -89,11 +92,13 @@ p{
        } 
 
 }
-span {
+ span {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 15px;
     margin-top: 0px;
-}
+    
+} 
+
 
 .ab ul li{
     list-style: none;
