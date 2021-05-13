@@ -69,8 +69,7 @@ hr{
    align-items: center;
 
 }
-.ab span{
-    /* display: inline-block; */
+p{
     display: flex;
     margin-left: 35%;
     margin-top: 10px;
@@ -90,7 +89,7 @@ hr{
        } 
 
 }
-#ce {
+span {
     font-family: 'Baloo Bhaina 2', cursive;
     font-size: 15px;
     margin-top: 0px;
