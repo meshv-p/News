@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 
     <link rel="stylesheet" href="about.css">
 </head>
@@ -19,7 +20,8 @@
         <hr>
         <img src="IMG20201117162347.jpg" alt="My pic">  
        
-        <span id="mp"> Meshv Patel </span> <span id="ce">Computer engineer </span>
+         <p id="mp"> Meshv Patel </p> <div class="ty">
+            <span class="typing" ></span>
         <div class="footer">
         <ul>
             <li  id="fa" >  <a href="https://www.facebook.com/meshv.patel.104"  class="fa fa-facebook"></a> <h6 id="f" >Facebook</h6> </li> 
@@ -29,6 +31,16 @@
         </ul>
          </div>
     </div>
+        
+        <script>
+        // typing animations.
+var typed = new Typed (".typing", {
+    strings  : ["Computer engineer","Web Developer"," Web Designer","Blogger"],
+    typeSpeed :100,
+    backSpeed : 100,
+    loop :true
+});    </script>
+        
 </body>
 
 </html>
