@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0; padding: 0;
+}
+body{
+    background-color: rgb(215 142 142 / 81%);
+    font-family: 'Fira Sans', sans-serif;
+}
+header{
+    text-align: center;font-size: 25px;
+    padding: 12px; color: gold;
+    background-color: #302626;
+    border-radius: 10px;
+    height: 50px;
+}
+.logi{
+    margin-left: 6px;
+    position: relative;
+    /* border: 2px solid red; */
+    top: 9px;
+    background-color: #302626;
+    border-radius: 17px;
+    left: 0px;
+    width: 37px;
+}
+
+.log {
+    border:1px solid red;
+    display: inline-block;
+    background: linear-gradient(87deg,#2389bb,#fffbfb8c);          /* defa- #3939cd,white >        #2389bb,#fffbfb8c)  */
+    margin-top: 100px;   /*140*/
+    margin-left:500px;  /* 500 */
+    height: 450px;
+    width: 410px;  /*400*/
+    border-radius: 10px;
+
+}
+
+
+.key{
+    margin-left: 10px;
+}
+
+input[type="email" ] :hover {
+            outline: transparent;
+}
+input[type="email" ]{
+        margin-top: 28px ;
+        margin-left: 25px;
+        border-radius: 10px;
+        padding: 9px;
+        border: 1px solid blanchedalmond;
+        width: 272px;
+}
+input[type="Password"]{
+    margin-left: 25px;
+    width: 272px;
+    padding: 9px;
+    margin-top: 30px;
+    border-radius: 9px;
+    /* display: flex; */
+    border: 1px solid blanchedalmond;
+    flex-direction: column;
+    
+}
+
+input[type="submit"]{
+    margin-left: 55px;
+    margin-top:39px;
+    width: 140px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: #ff4500de;
+}
+input:hover{
+    outline: none;
+}
+.button:hover{
+    background-color: #ff4500a1;
+    color: #3a2b2b;
+    outline:none;
+    border: none;
+    font-size: 14PX;
+    /* height: 37px;
+    width: 132px; */
+    transition: all .5s;
+}
+input[type="reset"]{
+    margin-left: 21px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 39px;
+    width: 140px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #ff4500de;
+}
+hr{
+    margin-top: 20px;
+    width: 300px;
+    margin-left: 58px;
+    border: 1px solid black;
+}
+#f{
+    margin-top: 15px;
+    width: 300px;
+    height: 43px;
+    margin-left: 58px;
+    background-color: rgb(28, 197, 28);
+}
+#g {
+    margin-top: 12px;
+    width: 300px;
+    height: 43px;
+    margin-left: 58px;
+    background-color: rgb(28, 197, 28);
+}
+#h1{
+    width: 91px;
+    margin-left: 92px;
+    display: inline-block;
+    border:1px  solid rgba(202, 202, 202, 0.808);
+}
+span{
+    margin-left: 6px;
+    display: inline;
+}
+#h2{
+    width: 91px;
+    border:1px  solid rgba(202, 202, 202, 0.808);
+    display: inline-block;
+    margin-left: 13px;
+}
+#g:hover{
+    border: none;
+    outline: none;
+    background-color: rgb(43, 255, 43);  
+    color: #3a2b2b;
+}
+#f:hover{
+    border: none;
+    outline: none;
+    background-color: rgb(43, 255, 43);  
+    color: #3a2b2b;
+}
+.ma{  /*.fa*/
+    margin-left: -107px;   
+}
+.fac{  /*.fa*/
+    margin-left: -107px;   
+}
+.ma{
+    color: white;
+} 
+#g:hover + .ma {
+    color: black;
+    background-color: white;
+    width: 26px;
+    height: 24px;
+    text-align: center;
+    padding: 3px 2px;
+    border-radius: 4px;
+    transition: all 2s;
+}
+.fac{
+    color: rgb(6, 6, 255);
+}
+#f:hover + .fac{
+    color: blanchedalmond;
+    background-color: rgb(6, 6, 255);
+    width: 26px;
+    height: 24px;
+    text-align: center;
+    padding: 3px 2px;
+    border-radius: 4px;
+    transition: all 2s;
+
+}
+#em{
+    margin-left: 14px;
+    font-size: 20px;
+}
+#ke{
+    margin-left: 14px;
+    font-size: 20px;
+    /* display: inline-block; */
+}
+a{
+    margin-left: 510px;
+    font-size: 15px;
+    cursor: help;
+    color: red;
+}
+@media (max-width:500px)  {
+    .log{
+        margin-left: auto;
+    }
+    a{
+        margin-left: 10px;
+    }
+}
+
+@media (min-width:501px) and (max-width:1000px){
+    .log{
+        margin-left: 200px;
+    }
+
+}
