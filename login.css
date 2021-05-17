@@ -13,6 +13,18 @@ header{
     border-radius: 10px;
     height: 50px;
 }
+.name{
+    margin-left: 80%;
+    margin-top: 10px;
+    padding: 6px 10px;
+    height: 25px;
+    width: 200px;
+   
+    border-radius: 10px;
+    background-color: rgb(145, 176, 187);
+    border: 2px solid green;
+}
+
 .logi{
     margin-left: 6px;
     position: relative;
@@ -199,6 +211,9 @@ a{
     }
     a{
         margin-left: 10px;
+    }
+    .name{
+        margin-left: 188px;
     }
 }
 
