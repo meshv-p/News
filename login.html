@@ -12,6 +12,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<!--     name details -->
+    <div class="name" > 
+       Your Name:- <span  id="nam" >  </span>
+      </div>
        <form>
          <div class="log">
                  <header><h3>LOG IN</h3> <i class="fa logi fa-sign-in" aria-hidden="true"></i></header> 
@@ -27,5 +31,12 @@
         </div>
        </form>
     <p>  <a href="#">Need help into log in?</a></p>
+     <script>
+       let name  = prompt("Enter Your name:","Guest");
+        document.getElementById("nam").innerHTML= name;
+
+
+    </script>
+    
 </body>
 </html>
